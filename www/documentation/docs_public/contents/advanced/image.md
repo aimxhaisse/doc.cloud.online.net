@@ -189,8 +189,11 @@ It is composed of two files:
 The image can then be built on `/dev/nbd1`:
 
 ```
-make install_on_disk
+make install
 ```
+
+Refer to the [Image Tools Commands](https://github.com/online-labs/image-tools#commands)
+documentation for the possible usages of this Makefile.
 
 ### Step 2 - Create a snapshot
 
